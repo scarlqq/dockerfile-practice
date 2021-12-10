@@ -8,4 +8,5 @@ FROM $BASE_CONTAINER
 # Install Python 3 packages
 RUN conda install --quiet -y -c conda-forge \
     "numpy=1.21.*"\
-    "sklearn"
+    "altair==4.1.*" \
+    "scikit-learn==1.0.*" 
